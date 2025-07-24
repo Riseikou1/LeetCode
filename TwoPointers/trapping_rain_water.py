@@ -6,7 +6,6 @@ class Solution1:
 
         n = len(height)
         res = 0
-
         for i in range(n):
             leftMax = rightMax = height[i]
 
